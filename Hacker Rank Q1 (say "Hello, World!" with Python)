@@ -1,0 +1,7 @@
+'Python 3'
+
+Print hello world
+
+code:-
+
+print('Hello, World!')
