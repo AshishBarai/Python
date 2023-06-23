@@ -1,0 +1,24 @@
+'Pyhton 3'
+
+HackerRank Q23 (Set.discard(),.remove() & .pop()) 
+
+Question:-
+
+You have a non-empty set s, and you have to execute N commands given in N lines.
+
+The commands will be pop, remove and discard.
+
+Code:-
+
+n = int(input())
+s = set(map(int, input().split()))
+N = int(input())
+for i in range(N):
+    l = input().split()
+    if l[0] == 'pop':
+        s.pop()
+    elif l[0] == 'remove':
+        s.remove(int(l[1]))
+    else :
+        s.discard(int(l[1]))
+print(sum(s))
