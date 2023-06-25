@@ -1,0 +1,14 @@
+'Python 3'
+
+HackerRank Q24 ( Min and Max)
+
+Question:-
+
+ou are given a 2-D array with dimensions N X M.
+Your task is to perform the min function over axis 1 and then find the max of that.
+
+Code:-
+
+n,m = map(int,input().split())
+arr = np.array([input().split() for i in range(n)],int)
+print(np.max(np.min(arr, axis = 1)))
