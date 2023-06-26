@@ -1,0 +1,15 @@
+'Python 3'
+
+HackerRank Q25 (Polynomials)
+
+Question:-
+
+You are given the coefficients of a polynomial P.
+Your task is to find the value of P at point x.
+
+Code:-
+
+import numpy as np
+coef_p = list(map(float,input().split()))
+x = int(input())
+print(np.polyval(coef_p,x))
