@@ -1,0 +1,18 @@
+'Python 3'
+
+HackerRank Q 26 (Inner And Outer)
+
+Question:-
+
+You are given two arrays: A and B.
+Your task is to compute their inner and outer product.
+
+Code:-
+
+import numpy as np
+
+a = list(map(int,input().split()))
+np.array([a])
+b = list(map(int,input().split()))
+print(np.inner(a,b))
+print(np.outer(a,b));
