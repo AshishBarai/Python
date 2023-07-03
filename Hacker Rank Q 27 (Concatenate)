@@ -1,0 +1,16 @@
+'Python 3'
+
+Hacker Rank Q27 (Concatenate)
+
+Question:-
+
+You are given two integer arrays of size nXp and mXp (n & m are rows, and p is the column). 
+Your task is to concatenate the arrays along axis 0.
+
+Code:-
+
+import numpy as np
+n,m,p = map(int,input().split())
+A1 = np.array([input().split() for p in range(n)],int)
+A2 = np.array([input().split() for p in range(m)],int)
+print(np.concatenate((A1,A2),axis = 0))
