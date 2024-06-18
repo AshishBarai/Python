@@ -1,0 +1,9 @@
+Q : Calculate the Sum of Numbers 1 to 100
+
+numbers = int(input("what is your number :"))
+num = 1
+total_sum = 0
+while num <= numbers:
+    total_sum += num
+    num += 1
+print(total_sum)
