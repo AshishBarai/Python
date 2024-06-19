@@ -1,0 +1,6 @@
+Q : Countdown any number to 0
+
+num = int(input('what is your number: '))
+while num >= 0:
+    print(num)
+    num -= 1
