@@ -1,0 +1,9 @@
+Q : Exercise 4: Find the Factorial of a Number
+
+num = int(input("What is your number: "))
+factorial = 1
+
+while num > 0:
+    factorial *= num
+    num -= 1
+print(f"Factorial: ",factorial)
