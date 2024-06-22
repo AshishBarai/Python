@@ -1,0 +1,14 @@
+Exercise 6: Print Fibonacci series
+
+num = int(input("what is your number: "))
+a = 0
+b = 1
+
+count = 0
+
+while count < num:
+    print(a)
+    n = a + b
+    a = b
+    b = n
+    count += 1
