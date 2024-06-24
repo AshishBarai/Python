@@ -1,0 +1,13 @@
+Q : Exercise 8: calculate the average of numbers
+
+count = int(input("how many numbers :"))
+
+total = 0
+i = 1
+
+while i <= count:
+  num = float(input("what is your number :"))
+  total += num
+  i += 1
+average = total / num
+print('average of a number is :',average)
