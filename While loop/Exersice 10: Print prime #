@@ -1,0 +1,8 @@
+Exersice 10: Print prime numbers
+
+count = int(input('till when: '))
+num = 2
+
+while num <= count:
+    print(num)
+    num += 2
