@@ -1,0 +1,11 @@
+Exercise 11: Calculate the sum of sum from user input
+
+num = int(input('What is your number :'))
+
+sum_of_digit = 0
+
+while num > 0:
+    digit = num % 10
+    sum_of_digit += digit
+    num //= 10
+print(sum_of_digit, 'is the sum of the number')
