@@ -1,0 +1,13 @@
+Q: Take a input from user and then print the vowels as a output if there is any.
+
+word = input('enter the word: ')
+
+vowel = []
+index = 0
+
+while index < len(word):
+    char = word[index]
+    if char.lower() in 'aeiou':
+        vowel.append(char)
+    index += 1
+print('Your vowel is ', ' '.join(vowel))
